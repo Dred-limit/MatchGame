@@ -40,7 +40,7 @@ namespace MatchGame
                 "🐇","🐇",
                 "🐿️","🐿️",
             };
-
+            // зоопарк
             Random random = new Random();
 
             foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
