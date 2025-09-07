@@ -70,6 +70,7 @@ namespace MatchGame
                     string nextEmoji = animalEmoji[index];
                     textBlock.Text = nextEmoji;
                     animalEmoji.RemoveAt(index);
+                    // генератор случайного числа под случайное размещение иконки животного
                 }
             }
             timer.Start();
